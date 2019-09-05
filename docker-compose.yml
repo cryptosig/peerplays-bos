@@ -41,6 +41,9 @@ services:
       - ./data/bos:/data
       - ./data/peerplays:/root/.local/share/peerplays
       - ./config-bos-mint.yaml:/bos-auto/config-bos-mint.yaml
+      - ./incident_storage_config.yaml:/bos-auto/incident_storage_config.yaml
+    links:
+      - mongo
 
   mongo:
     image: mongo
