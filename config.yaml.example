@@ -1,7 +1,6 @@
 # Please see bos_auto/config-defaults.yaml for description
 
-node: wss://api.ppy.blckchnd.com
-
+node: wss://api.mainnet.peerblock.trade
 network: alice
 
 redis_host: redis
